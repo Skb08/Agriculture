@@ -5,11 +5,12 @@ import Footer from './components/MyFooter'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Newsletter from './components/Newsletter'
-import Products from './components/Products'
+import Reviews from './components/Reviews'
+import Members from './components/Members'
 import Services from './components/Services'
-import Donate from './components/Donate'
 import Gallery from './components/Gallery'
 import Companies from './components/Companies'
+import ResourcesLib from './components/ResourcesLib'
 
 
 function App() {
@@ -18,12 +19,13 @@ function App() {
     <>
       <Navbar/>
       <Home/>
+      <Companies/>
       <Services/>
       <About/>
-      <Products/>
       <Blog/>
-      <Donate/>
-      <Companies/>
+      <Reviews/>
+      <Members/>
+      <ResourcesLib/>
       <Gallery/>
       <Newsletter/>
       <Footer/>

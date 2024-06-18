@@ -1,33 +1,13 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
-import hero2 from "../assets/hero2.png"
 import hero3 from "../assets/cartoonTmg.png";
-import Agri4 from "../assets/agri4.png";
 
-const Products = () => {
+
+const Reviews = () => {
   return (
     < >
-
-        {/* about text */}
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='product'>
-            <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
-                <div data-aos="zoom-out-down" >
-                    <img className='md:max-w-md md:h-4/5 animate-bounceSlow' src={Agri4} alt='skb' />
-                </div>
-                <div className='md:w-3/4 mx-auto' data-aos="zoom-out-down" >
-                    <h2 className='text-4xl text-gray-500 font-semibold mb-4 md:w-4/5'>
-                        The unseen of spending three years at pixelgrade</h2>
-                    <p className='md:w-3/4 text-sm text-gray-500 mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. Quae rem dolor ab quisquam eaque aspernatur temporibus alias autem sit doloremque nesciunt accusamus 
-                    facere ad voluptatibus fugiat reiciendis eum suscipit aut, nemo quia ullam quis ratione cum. Amet sed modi 
-                    quod enim quibusdam sint adipisci voluptatibus impedit quidem perspiciatis? Libero, laboriosam.</p>
-                    <button className='btn-primary'>Learn More</button>
-                </div>
-            </div>
-        </div>
-
         {/* review */}
-        <div className='bg-[#ADEF8866] py-6' id="testimonial">
+        <div className='bg-[#ADEF8866] py-6' id="product">
             <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto h-[100vh] md:h-[40vh]'>
                 <Carousel className='w-[100%] mx-auto' data-aos="zoom-in" >
                     <div className='flex flex-col md:flex-row justify-between items-center py-6'>
@@ -89,4 +69,4 @@ const Products = () => {
   )
 }
 
-export default Products
+export default Reviews
