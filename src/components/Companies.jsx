@@ -2,7 +2,7 @@ import React from 'react'
 
 const Companies = () => {
     return (
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8 bg-[#ADEF8866] pb-6'>
+        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8  pb-6'>
             <div className='text-center md:w-3/4 mx-auto flex flex-col items-center pt-8' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                 <h2 className='text-4xl text-gray-500 font-semibold mb-4'>
                     Companies</h2>
@@ -32,7 +32,7 @@ const Companies = () => {
                         <img className='w-24' src='/src/assets/youtube.svg' alt="YouTube" />
                     </li>
                 </ul>
-                <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+                <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll invisible lg:visible" aria-hidden="true">
                     <li>
                         <img className='w-24' src='/src/assets/chart.svg' alt="Chart" />
                     </li>
