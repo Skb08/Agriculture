@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 .btn-primary{
     @apply px-7 py-2 bg-green-400 text-white rounded hover:bg-slate-400 transition-all duration-300 hover:-translate-y-4;
@@ -5,5 +12,21 @@
 
 * {
     /* outline: 1px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
     max-width: 100%;
   }
+   .t{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style:normal;
+
+   }
+   .m{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 900;
+    font-style: normal;
+   }

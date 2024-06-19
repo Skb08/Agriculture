@@ -13,6 +13,7 @@ const MyFooter = () => {
               src="/src/assets/grain.svg"
               alt="Flowbite Logo"
               name="Agriculture"
+              //  class='m'
             />
             <div className='text-gray-700'>
               <p className='mb-1'>Copyright @ 2024 Suraj ltd</p>
