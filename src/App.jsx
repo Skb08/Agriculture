@@ -11,7 +11,7 @@ import Services from './components/Services'
 import Gallery from './components/Gallery'
 import Companies from './components/Companies'
 import ResourcesLib from './components/ResourcesLib'
-
+import FAQ from './components/FAQ'
 
 function App() {
  
@@ -27,6 +27,7 @@ function App() {
       <Members/>
       <ResourcesLib/>
       <Gallery/>
+      <FAQ/>
       <Newsletter/>
       <Footer/>
     </>
