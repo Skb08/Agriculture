@@ -13,10 +13,10 @@ const Home = () => {
                 <Carousel className=' mx-auto'>
                     <div className="mb-8 md:mb-28 md:pb-8 flex flex-col md:flex-row-reverse items-center justify-evenly lg:gap-12">
                         <div >
-                            <img className="animate-bounceSlow max-w-sm md:max-w-md lg:max-w-[36rem] " src={Agri1} alt='skb' />
+                            <img className="animate-bounceSlow sm:max-w-sm md:max-w-md lg:max-w-[36rem] " src={Agri1} alt='skb' />
                         </div>
                         <div className="md:w-1/2  md:visible">
-                            <h1 className=" t text-3xl md:text-5xl font-semibold mb-4 text-gray-500 md:w-3/4 leading-snug">If agriculture goes wrong, nothing else will have a chance to go right.
+                            <h1 className=" t text-3xl md:text-5xl font-semibold mb-4 text-gray-500 md:w-3/4 leading-sung">If agriculture goes wrong, nothing else will have a chance to go right.
                              <br />
                                 <span className="text-3xl text-green-500 leading-9 md:leading-sung"> M.S.SWAMINATHAN</span></h1>
                             {/* <p className="text-gray-500 text-base mb-8">Support,Contribute,Donate for the mission</p> */}
@@ -25,10 +25,10 @@ const Home = () => {
                     </div>
                     <div className="mb-8 md:mb-28 md:pb-8 flex flex-col md:flex-row-reverse items-center justify-evenly lg:gap-12">
                         <div>
-                            <img className="animate-bounceSlow max-w-sm md:max-w-md lg:max-w-[36rem] " src={Agri3} alt='skb' />
+                            <img className="animate-bounceSlow sm:max-w-sm md:max-w-md lg:max-w-[36rem] " src={Agri3} alt='skb' />
                         </div>
                         <div className="md:w-1/2 md:visible">
-                            <h1 className=" t text-3xl md:text-5xl font-semibold mb-4 text-gray-500 md:w-3/4 leading-snug">The farm is a school of patience; you can't hurry the crops or make an ox in two days.
+                            <h1 className=" t text-3xl md:text-5xl font-semibold mb-4 text-gray-500 md:w-3/4 leading-sung">The farm is a school of patience; you can't hurry the crops or make an ox in two days.
                              <br />
                                 <span className="text-3xl text-green-500 leading-9 md:leading-sung"> HENRI ALAIN</span></h1>
                             {/* <p className="text-gray-500 text-base mb-8">Support,Contribute,Donate for the mission</p> */}
