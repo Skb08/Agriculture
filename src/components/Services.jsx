@@ -15,13 +15,14 @@ const Services = () => {
                 className="w-fit mx-auto grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
                 <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl " >
-                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                        alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                    <img src="https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2020/08/26/kisan-730_1598431947.jpg"
+                        alt="Product" class="h-75 w-75 object-cover rounded-t-xl" />
                     <div class="px-4 py-3 w-72">
                         
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center">Product Name</p>
+                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center">PM-KISAN</p>
                         <div class="flex items-center justify-center">
-                            <button className='px-7 py-2 bg-green-400 text-white rounded hover:bg-slate-400'>Donate</button>
+                            {/* <button className='px-7 py-2 bg-green-400 text-white rounded hover:bg-slate-400'>Donate</button> */}
+                             <a href="https://pmkisan.gov.in/"><p className='text-base underline'>PM-KISAN is a central sector scheme launched on 24th February 2019 to supplement financial needs of land holding farmers, subject to exclusions.</p></a>
                         </div>
                     </div>
                 </div>
