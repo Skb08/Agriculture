@@ -20,9 +20,12 @@ const Services = () => {
                     <div class="px-4 py-3 w-72">
                         
                         <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center">PM-KISAN</p>
-                        <div class="flex items-center justify-center">
-                            {/* <button className='px-7 py-2 bg-green-400 text-white rounded hover:bg-slate-400'>Donate</button> */}
-                             <a href="https://pmkisan.gov.in/"><p className='text-base underline'>PM-KISAN is a central sector scheme launched on 24th February 2019 to supplement financial needs of land holding farmers, subject to exclusions.</p></a>
+                        <div class="flex flex-wrap">
+                        <p className='text-base '>PM-KISAN is a central sector scheme launched on 24th February 2019 to supplement financial needs of land holding farmers, subject to exclusions.</p>
+                             <a href="https://pmkisan.gov.in/" target='_blank' className='ml-12'>
+                             <button className='px-7 py-2 bg-green-400 text-white rounded hover:bg-slate-400'>Know more</button>
+                             </a>
+                           
                         </div>
                     </div>
                 </div>
