@@ -1,6 +1,13 @@
 import React from 'react'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Gallery = () => {
+    const [visibility, setVisibility] = useState(false);
+
+    const toggleVisibility = () => {
+        setVisibility(!visibility);
+    };
     return (
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='gallary'>
             <div className='text-center md:w-3/4 mx-auto flex flex-col items-center' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
@@ -49,6 +56,12 @@ const Gallery = () => {
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
                 </div>
                 
+            </div>
+            <div className="text-end mt-4 text-blue-700">
+                <button onClick={toggleVisibility}>
+                    <Link to={"/moregallery"}>{visibility ? 'Back' : 'More'}</Link>
+
+                </button>
             </div>
 
         </div>

@@ -12,26 +12,54 @@ import Gallery from './components/Gallery'
 import Companies from './components/Companies'
 import ResourcesLib from './components/ResourcesLib'
 import FAQ from './components/FAQ'
+import { useEffect, useLayoutEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { animateScroll as scroll, scroller } from 'react-scroll';
 
 function App() {
- 
+  const location = useLocation();
+
+  useLayoutEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const section = params.get('section');
+
+    if (section) {
+      setTimeout(() => {
+        scroller.scrollTo(section, {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+          offset: -100,
+        });
+      }, 100); // Delay to ensure the DOM is fully rendered
+    } else {
+      scroll.scrollToTop({
+        duration: 800,
+        delay: 0,
+        smooth: 'easeInOutQuart',
+      });
+    }
+  }, [location]);
+
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <Companies/>
-      <Services/>
-      <About/>
-      <Blog/>
-      <Reviews/>
-      <Members/>
-      <ResourcesLib/>
-      <Gallery/>
-      <FAQ/>
-      <Newsletter/>
-      <Footer/>
+      <Navbar />
+      <section id="home"><Home /></section>
+      <section id="companies"><Companies /></section>
+      <section id="service"><Services /></section>
+      <section id="about"><About /></section>
+      <section id="blog"><Blog /></section>
+      <Reviews />
+      <section id="member"><Members /></section>
+      
+      <section id="resourcelib"><ResourcesLib/></section>
+
+      <Gallery />
+      <section id="faq"><FAQ /></section>
+      <Newsletter />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
