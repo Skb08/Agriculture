@@ -3,6 +3,7 @@ import { useState } from 'react';
 import MyFooter from './MyFooter';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
+import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 
 const Moregallery = () => {
     const [visibility, setVisibility] = useState(true);
@@ -62,9 +63,9 @@ const Moregallery = () => {
                 </div>
 
                 </div>
-                <div className="text-end mt-4 text-blue-700">
+                <div className="text-end mt-4 text-green-600 hover:text-green-500">
                     <button >
-                        <Link to="/?section=gallery">{visibility ? 'Back...' : ' More...'}</Link>
+                        <Link to="/?section=gallery">{visibility ? <span className='flex items-center '><MdKeyboardDoubleArrowLeft className='text-2xl' /> Back </span> : ' More...'}</Link>
                     </button>
                 </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Gallery = () => {
     const [visibility, setVisibility] = useState(false);
@@ -57,9 +58,9 @@ const Gallery = () => {
                 </div>
                 
             </div>
-            <div className="text-end mt-4 text-blue-700">
+            <div className="text-end mt-4 text-green-600 hover:text-green-500">
                 <button onClick={toggleVisibility}>
-                    <Link to={"/moregallery"}>{visibility ? 'Back' : 'More'}</Link>
+                    <Link to={"/moregallery"}>{visibility ? 'Back' : <span className='flex items-center '>More <MdKeyboardDoubleArrowRight className='text-2xl' /></span>}</Link>
 
                 </button>
             </div>

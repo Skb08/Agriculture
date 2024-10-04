@@ -10,10 +10,10 @@ const MyFooter = () => {
           <div className='space-y-4 mb-8'>
             <Footer.Brand
               href="#"
-              src="/src/assets/grain.svg"
+              src="/src/assets/planet-earth.png"
               alt="Flowbite Logo"
               name="Agriculture"
-               className="m"
+               className="m "
             />
             <div className='text-gray-700'>
               <p className='mb-1'>Copyright @ 2024 Suraj ltd</p>

@@ -1,18 +1,17 @@
-import './App.css'
-import About from './components/About'
-import Blog from './components/Blog'
-import Footer from './components/MyFooter'
-import Home from './components/Home'
-import Navbar from './components/Navbar'
-import Newsletter from './components/Newsletter'
-import Reviews from './components/Reviews'
-import Members from './components/Members'
-import Services from './components/Services'
-import Gallery from './components/Gallery'
-import Companies from './components/Companies'
-import ResourcesLib from './components/ResourcesLib'
-import FAQ from './components/FAQ'
-import { useEffect, useLayoutEffect } from 'react';
+import './App.css';
+import AgroEquip from './components/AgroEquip';
+import Footer from './components/MyFooter';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Reviews from './components/Reviews';
+import Members from './components/Members';
+import Services from './components/Services';
+import Gallery from './components/Gallery';
+import Companies from './components/Companies';
+import ResourcesLib from './components/ResourcesLib';
+import FAQ from './components/FAQ';
+import NewsBlog from './components/NewsBlog';
+import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
@@ -31,7 +30,7 @@ function App() {
           smooth: 'easeInOutQuart',
           offset: -100,
         });
-      }, 100); // Delay to ensure the DOM is fully rendered
+      }, 300); // Slight delay to ensure DOM has loaded
     } else {
       scroll.scrollToTop({
         duration: 800,
@@ -45,18 +44,15 @@ function App() {
     <>
       <Navbar />
       <section id="home"><Home /></section>
-      <section id="companies"><Companies /></section>
       <section id="service"><Services /></section>
-      <section id="about"><About /></section>
-      <section id="blog"><Blog /></section>
-      <Reviews />
+      <section id="agroequip"><AgroEquip /></section>
+      <section id="reviews"><Reviews /></section>
+      <section id="newsblog"><NewsBlog /></section>
       <section id="member"><Members /></section>
-      
-      <section id="resourcelib"><ResourcesLib/></section>
-
-      <Gallery />
+      <section id="resourcelib"><ResourcesLib /></section>
+      <section id="gallery"><Gallery /></section>
+      <section id="companies"><Companies /></section>
       <section id="faq"><FAQ /></section>
-      <Newsletter />
       <Footer />
     </>
   );
