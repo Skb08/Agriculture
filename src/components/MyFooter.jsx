@@ -16,7 +16,7 @@ const MyFooter = () => {
                className="m "
             />
             <div className='text-gray-700'>
-              <p className='mb-1'>Copyright @ 2024 Suraj ltd</p>
+              <p className='mb-1'>Copyright @ 2024 Agriculture ltd</p>
               <p>All rights reserved</p>
             </div>
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
