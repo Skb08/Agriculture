@@ -1,7 +1,7 @@
 import React from 'react'
 import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-
+ 
 const MyFooter = () => {
   return (
     <Footer className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'>
@@ -10,12 +10,13 @@ const MyFooter = () => {
           <div className='space-y-4 mb-8'>
             <Footer.Brand
               href="#"
-              src="/src/assets/grain.svg"
+              src="/src/assets/planet-earth.png"
               alt="Flowbite Logo"
               name="Agriculture"
+               className="m "
             />
             <div className='text-gray-700'>
-              <p className='mb-1'>Copyright @ 2024 Suraj ltd</p>
+              <p className='mb-1'>Copyright @ 2024 Agriculture ltd</p>
               <p>All rights reserved</p>
             </div>
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
