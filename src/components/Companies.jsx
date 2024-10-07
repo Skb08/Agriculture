@@ -1,60 +1,88 @@
-import React from 'react'
+import React from 'react';
+import digitalindia from '../assets/digitalindia.png';
+import mygov from '../assets/mygov.png';
+import makeinindia from '../assets/makeinindia.jfif';
+import datagov from '../assets/datagov.jfif';
+import indiagovin from '../assets/indiagovin.png';
+import webdirectory from '../assets/webdirectory.png';
 
 const Companies = () => {
     return (
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8  pb-6' id='companies'>
-            <div className='text-center md:w-3/4 mx-auto flex flex-col items-center pt-8' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
-                <h2 className='text-4xl text-gray-500 font-semibold mb-4'>
-                    Companies</h2>
-                <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>Your support has the power to change lives. 
-                Whether it's offering food, shelter, medical assistance, or education, every contribution counts. Your generosity 
-                makes a meaningful difference in the lives of those in need.</p>
+        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8 pb-6' id='companies'>
+            <div className="md:w-1/2 mx-auto text-center" data-aos="zoom-out">
+                <h2 className="text-4xl text-green-600 font-semibold mb-2">Resource Library</h2>
+                <p className="text-green-500">We have been working with some fortune 500+ clients</p>
             </div>
 
-            <div class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)" >
-                <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+            <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+                <ul className="flex items-center justify-center md:justify-start space-x-8 md:space-x-12 [&_img]:max-w-none animate-infinite-scroll">
                     <li>
-                        <img className='w-24' src='/src/assets/chart.svg' alt="Chart" />
+                        <a href='https://www.digitalindia.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={digitalindia} alt="Digital India" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/disney.svg' alt="Disney" />
+                        <a href='https://www.mygov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={mygov} alt="MyGov" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/amazon.svg' alt="Amazon" />
+                        <a href='https://www.makeinindia.com/home' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={makeinindia} alt="Make in India" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/meta.svg' alt="Meta" />
+                        <a href='https://data.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={datagov} alt="Data Gov" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/movie.svg' alt="Movie" />
+                        <a href='https://www.india.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={indiagovin} alt="India Gov" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/youtube.svg' alt="YouTube" />
+                        <a href='https://igod.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={webdirectory} alt="Web Directory" />
+                        </a>
                     </li>
                 </ul>
-                <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll invisible lg:visible" aria-hidden="true">
+
+                <ul className="flex items-center justify-center md:justify-start space-x-8 md:space-x-12 [&_img]:max-w-none animate-infinite-scroll invisible lg:visible ml-6" aria-hidden="true">
                     <li>
-                        <img className='w-24' src='/src/assets/chart.svg' alt="Chart" />
+                        <a href='https://www.digitalindia.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={digitalindia} alt="Digital India" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/disney.svg' alt="Disney" />
+                        <a href='https://www.mygov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={mygov} alt="MyGov" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/amazon.svg' alt="Amazon" />
+                        <a href='https://www.makeinindia.com/home' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={makeinindia} alt="Make in India" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/meta.svg' alt="Meta" />
+                        <a href='https://data.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={datagov} alt="Data Gov" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/movie.svg' alt="Movie" />
+                        <a href='https://www.india.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={indiagovin} alt="India Gov" />
+                        </a>
                     </li>
                     <li>
-                        <img className='w-24' src='/src/assets/youtube.svg' alt="YouTube" />
+                        <a href='https://igod.gov.in/' target='_blank' rel="noopener noreferrer">
+                            <img className='w-24 md:w-32' src={webdirectory} alt="Web Directory" />
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Companies
+export default Companies;

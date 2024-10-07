@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import App from "./App"
 import Moregallery from './components/Moregallery'
 import MoreResourcesLib from "./components/MoreResourceLib"
- import MoreAgroEquip from './components/MoreAgroEquip'
-  import { MoreNewsBlog } from './components/MoreNewsBlog'
-  import MoreServices from './components/MoreServices'
+import MoreAgroEquip from './components/MoreAgroEquip'
+import { MoreNewsBlog } from './components/MoreNewsBlog'
+import MoreServices from './components/MoreServices'
+import MoreNews from './components/MoreAgricultureUpdates'
 const Routing = () => {
     return < Router>
     <Routes>
@@ -16,8 +17,7 @@ const Routing = () => {
       <Route path='/moreagroequip' element={<MoreAgroEquip></MoreAgroEquip>}></Route>
       <Route path='/morenewsblog' element={<MoreNewsBlog></MoreNewsBlog>}></Route>
       <Route path='/moreservice' element={<MoreServices></MoreServices>}></Route>
-
-
+      <Route path='/morenews' element={<MoreNews></MoreNews>}></Route>
 
     </Routes>
   </Router>

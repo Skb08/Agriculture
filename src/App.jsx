@@ -11,6 +11,7 @@ import Companies from './components/Companies';
 import ResourcesLib from './components/ResourcesLib';
 import FAQ from './components/FAQ';
 import NewsBlog from './components/NewsBlog';
+import AgricultureUpdates from './components/AgricultureUpdates';
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
@@ -52,6 +53,7 @@ function App() {
       <section id="resourcelib"><ResourcesLib /></section>
       <section id="gallery"><Gallery /></section>
       <section id="companies"><Companies /></section>
+      <section id="agroupdate"><AgricultureUpdates /></section>
       <section id="faq"><FAQ /></section>
       <Footer />
     </>
