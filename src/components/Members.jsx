@@ -1,36 +1,53 @@
 import React from 'react'
 
 const Members = () => {
-    const services=[
-        {id:1, title:"Membership Organization", description:"Our membership management software provides full automation of membership renewals and payments", image:"/src/assets/slogo.png"},
-        {id:2, title:"National Association", description:"Our membership management software provides full automation of membership renewals and payments", image:"/src/assets/slogo.png"},
-        {id:3, title:"Clubs and Groups", description:"Our membership management software provides full automation of membership renewals and payments", image:"/src/assets/slogo.png"},
-        
-    ]
-  return (
-    <div className='px-4 md:px-14 py-16 max-w-screen-2xl mx-auto ' id='member' >
-        
-        <div className='md:w-1/2 mx-auto text-center ' data-aos="zoom-out-up" >
-            <h2 className='text-4xl text-gray-500 font-semibold mb-2'>Our Members</h2>
-            <p className='text-gray-500 '>We have been working with some fortune 500+ clients</p>
-        </div>
-        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
-            {
-                services.map(service => <div key={service.id} data-aos="zoom-out-up" 
-                className='px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-[100%] '>
-                    <div>
-                        <div className='bg-[#E8F5E9] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl '>
-                            <img src={service.image} alt='skb' className='-ml-5' />
-                        </div>
-                        <h4 className='text-2xl font-bold text-gray-500 mb-2 px-2'>{service.title}</h4>
-                        <p className='text-sm text-gray-500'>{service.description}</p>
-                    </div>
+    const services = [
+        {
+            id: 1, title: "Honourable Prime Minister",
+            description: "Shri Narendra Modi",
+            image: "https://www.newsonair.gov.in/wp-content/uploads/2024/08/PM-Modi-to-visit-Jalgaon-and-Jodhpur-tomorrow.jpeg"
+        },
+        {
+            id: 2, title: "Honourable Minister of Agriculture and Farmers' Welfare",
+            description: "Shri Shivraj Singh Chouhan",
+            image: "https://irc.trif.in/wp-content/uploads/2024/08/Shri-Shivraj-Singh-Chouhan-e1722970636976.jpg"
+        },
+        {
+            id: 3, title: "Honourable Chief Minister of Odisha",
+            description: "Shri Mohan Charan Majhi",
+            image: "https://www.amaodisha.com/wp-content/uploads/2024/06/Mohan-Charan-Majhi.jpg"
+        },
+        {
+            id: 4, title: "Honourable Minister of Agriculture and Farmers' Welfare",
+            description: "Shri Kanak Vardhan Singh Deo", 
+            image: "https://pbs.twimg.com/media/GPzLLOObgAA2dLB.jpg"
+        },
 
-                </div>)
-            }
+    ]
+    return (
+        <div className='px-4 md:px-14 py-16 max-w-screen-2xl mx-auto ' id='member'>
+
+            <div className='md:w-1/2 mx-auto text-center' data-aos="zoom-out-up">
+                <h2 className='text-4xl text-gray-700 font-semibold mb-4'>Our Members</h2>
+                <p className='text-gray-600'>We have been working with some fortune 500+ clients</p>
+            </div>
+
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
+                {
+                    services.map(service => (
+                        <div key={service.id} data-aos="zoom-out-up" className='px-4 py-8 text-center w-full rounded-md shadow-xl cursor-pointer hover:translate-y-3 
+                            hover:border-b-4 hover:border-green-700 transition-transform duration-300 flex flex-col items-center justify-center'>
+                            <div className='w-36 h-36 mx-auto mb-4 bg-[#E8F5E9] rounded-tl-3xl rounded-br-3xl overflow-hidden'>
+                                <img src={service.image} alt={service.title} className='w-full h-full object-cover' />
+                            </div>
+                            <h4 className='text-xl font-bold text-gray-700 mb-2'>{service.title}</h4>
+                            <p className='text-sm text-gray-600'>{service.description}</p>
+                        </div>
+                    ))
+                }
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Members
