@@ -7,7 +7,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Home = () => {
   return (
-    <div className="h-56 sm:h-64  md:h-96 xl:h-screen 2xl:h-screen">
+    <div className="h-32 sm:h-64  md:h-72 lg:h-[25rem] ">
       <Carousel slideInterval={5000} pauseOnHover indicators={false}
       leftControl={<IoIosArrowDropleftCircle className='text-green-600 scale-[3]' />} 
       rightControl={<IoIosArrowDroprightCircle className='text-green-600 scale-[3]' />}>

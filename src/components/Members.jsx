@@ -8,7 +8,7 @@ const Members = () => {
             image: "https://www.newsonair.gov.in/wp-content/uploads/2024/08/PM-Modi-to-visit-Jalgaon-and-Jodhpur-tomorrow.jpeg"
         },
         {
-            id: 2, title: "Honourable Minister of Agriculture and Farmers' Welfare",
+            id: 2, title: "Honourable  Agriculture and Farmers' Welfare Minister",
             description: "Shri Shivraj Singh Chouhan",
             image: "https://irc.trif.in/wp-content/uploads/2024/08/Shri-Shivraj-Singh-Chouhan-e1722970636976.jpg"
         },
@@ -36,8 +36,8 @@ const Members = () => {
                 {
                     services.map(service => (
                         <div key={service.id} data-aos="zoom-out-up" className='px-4 py-8 text-center w-full rounded-md shadow-xl cursor-pointer hover:translate-y-3 
-                            hover:border-b-4 hover:border-green-700 transition-transform duration-300 flex flex-col items-center justify-center'>
-                            <div className='w-36 h-36 mx-auto mb-4 bg-[#E8F5E9] rounded-tl-3xl rounded-br-3xl overflow-hidden'>
+                            hover:border-b-4 hover:border-green-700 transition-transform duration-400 flex flex-col items-center justify-center'>
+                            <div className='w-36 h-36 mx-auto mb-4 bg-[#E8F5E9] rounded-tl-3xl rounded-br-3xl overflow-hidden shadow-lg'>
                                 <img src={service.image} alt={service.title} className='w-full h-full object-cover' />
                             </div>
                             <h4 className='text-xl font-bold text-gray-700 mb-2'>{service.title}</h4>
