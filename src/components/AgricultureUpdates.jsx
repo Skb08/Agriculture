@@ -22,7 +22,11 @@ const AgricultureNews = () => {
                         apiKey: import.meta.env.VITE_API_KEY,  
                         q: 'agriculture',  // agriculture news
                         language: 'en',
-                    }
+                    },
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                      }
                 });
 
                 // limit to first 5 news
