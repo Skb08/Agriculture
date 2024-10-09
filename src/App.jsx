@@ -15,6 +15,8 @@ import AgricultureUpdates from './components/AgricultureUpdates';
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
+// require('dotenv').config();
+
 
 function App() {
   const location = useLocation();

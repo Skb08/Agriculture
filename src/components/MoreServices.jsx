@@ -25,12 +25,12 @@ const MoreServices = () => {
             <section data-aos="zoom-in"
                 className="w-fit mx-auto grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
-                <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl " >
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl " >
                     <img src="https://pmkisan.gov.in/new_images/FinalPMO.jpg"
-                        alt="Product" class="h-75 w-75 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KISAN</p>
-                        <div class="flex flex-wrap">
+                        alt="Product" className="h-75 w-75 object-cover rounded-t-xl" />
+                    <div className="px-4 py-3 w-72">
+                        <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KISAN</p>
+                        <div className="flex flex-wrap">
                             <p className='text-sm text-justify text-neutral-600 mb-4 font-ubuntu'>The <span className='font-extrabold'>Pradhan Mantri Kisan Samman Nidhi</span> is a central sector scheme launched on 24th February
                                 2019 to supplement financial needs of land holding farmers, subject to exclusions.</p>
                             <a href="https://pmkisan.gov.in/" target='_blank' className='ml-12'>
@@ -40,12 +40,12 @@ const MoreServices = () => {
                         </div>
                     </div>
                 </div>
-                <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                     <img src="https://kisanvedika.bighaat.com/wp-content/uploads/2024/06/Default_Pradhan_Mantri_Kisan_MaanDhan_Yojana_PMKMY_Web_Story_P_3-1.jpg"
-                        alt="Product" class="h-75 w-75 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KMY</p>
-                        <div class="flex flex-wrap">
+                        alt="Product" className="h-75 w-75 object-cover rounded-t-xl" />
+                    <div className="px-4 py-3 w-72">
+                        <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KMY</p>
+                        <div className="flex flex-wrap">
                             <p className='text-sm text-justify text-neutral-600 mb-4 font-ubuntu'>The <span className='font-extrabold'>Pradhan Mantri Kisan Maandhan Yojana</span> is a
                                 government scheme aimed at providing a pension for small and marginal farmers in India after they reach 60 years of age.</p>
                             <a href="https://pmkmy.gov.in/" target='_blank' className='ml-12'>
@@ -55,12 +55,12 @@ const MoreServices = () => {
                         </div>
                     </div>
                 </div>
-                <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl" >
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl" >
                     <img src="https://pbs.twimg.com/media/FY5bNsMVEAEZdOJ?format=jpg&name=900x900"
                         alt="Product" className="h-65 w-65 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PMFBY</p>
-                        <div class="flex flex-wrap">
+                    <div className="px-4 py-3 w-72">
+                        <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PMFBY</p>
+                        <div className="flex flex-wrap">
                             <p className='text-sm text-justify text-neutral-600 mb-4 font-ubuntu'>The <span className='font-extrabold'>Pradhan Mantri Fasal Bima Yojana</span> is a
                                 government-backed crop insurance scheme in India that provides financial support to farmers in case of crop loss due to natural calamities.</p>
                             <a href="https://pmfby.gov.in" target='_blank' className='ml-12'>
@@ -70,12 +70,12 @@ const MoreServices = () => {
                         </div>
                     </div>
                 </div>
-                <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl " >
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl " >
                     <img src="https://pmkisan.gov.in/new_images/FinalPMO.jpg"
-                        alt="Product" class="h-75 w-75 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KISAN</p>
-                        <div class="flex flex-wrap">
+                        alt="Product" className="h-75 w-75 object-cover rounded-t-xl" />
+                    <div className="px-4 py-3 w-72">
+                        <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KISAN</p>
+                        <div className="flex flex-wrap">
                             <p className='text-sm text-justify text-neutral-600 mb-4 font-ubuntu'>The <span className='font-extrabold'>Pradhan Mantri Kisan Samman Nidhi</span> is a central sector scheme launched on 24th February
                                 2019 to supplement financial needs of land holding farmers, subject to exclusions.</p>
                             <a href="https://pmkisan.gov.in/" target='_blank' className='ml-12'>
@@ -85,12 +85,12 @@ const MoreServices = () => {
                         </div>
                     </div>
                 </div>
-                <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                     <img src="https://kisanvedika.bighaat.com/wp-content/uploads/2024/06/Default_Pradhan_Mantri_Kisan_MaanDhan_Yojana_PMKMY_Web_Story_P_3-1.jpg"
-                        alt="Product" class="h-75 w-75 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KMY</p>
-                        <div class="flex flex-wrap">
+                        alt="Product" className="h-75 w-75 object-cover rounded-t-xl" />
+                    <div className="px-4 py-3 w-72">
+                        <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PM-KMY</p>
+                        <div className="flex flex-wrap">
                             <p className='text-sm text-justify text-neutral-600 mb-4 font-ubuntu'>The <span className='font-extrabold'>Pradhan Mantri Kisan Maandhan Yojana</span> is a
                                 government scheme aimed at providing a pension for small and marginal farmers in India after they reach 60 years of age.</p>
                             <a href="https://pmkmy.gov.in/" target='_blank' className='ml-12'>
@@ -100,12 +100,12 @@ const MoreServices = () => {
                         </div>
                     </div>
                 </div>
-                <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl" >
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl" >
                     <img src="https://pbs.twimg.com/media/FY5bNsMVEAEZdOJ?format=jpg&name=900x900"
                         alt="Product" className="h-65 w-65 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PMFBY</p>
-                        <div class="flex flex-wrap">
+                    <div className="px-4 py-3 w-72">
+                        <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center font-ubuntu">PMFBY</p>
+                        <div className="flex flex-wrap">
                             <p className='text-sm text-justify text-neutral-600 mb-4 font-ubuntu'>The <span className='font-extrabold'>Pradhan Mantri Fasal Bima Yojana</span> is a
                                 government-backed crop insurance scheme in India that provides financial support to farmers in case of crop loss due to natural calamities.</p>
                             <a href="https://pmfby.gov.in" target='_blank' className='ml-12'>

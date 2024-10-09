@@ -22,7 +22,7 @@ const MoreNews = () => {
             try {
                 const response = await axios.get('https://newsapi.org/v2/everything', {
                     params: {
-                        apiKey: 'a618c4b0ac924535b7b7a35f13847f4a',
+                        apiKey: import.meta.env.VITE_API_KEY,  
                         q: 'agriculture',
                         language: 'en',
                     }
