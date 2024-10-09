@@ -19,41 +19,41 @@ const Gallery = () => {
                 makes a meaningful difference in the lives of those in need.</p>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8 ">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8 ">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
                 </div>
                 
