@@ -18,7 +18,7 @@ const AgricultureNews = () => {
         const fetchData = async () => {
             try {
                 // Call the proxy server instead of the NewsAPI directly
-                const response = await axios.get('http://localhost:5000/agriculture-news');
+                const response = await axios.get('https://rsagrotech.onrender.com/agriculture-news');
     
                 const filteredNews = response.data.articles
                     .filter(article => article.description && !article.description.includes('[Removed]'))
