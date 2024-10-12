@@ -22,7 +22,7 @@ const AgricultureNews = () => {
     
                 const filteredNews = response.data.articles
                     .filter(article => article.description && !article.description.includes('[Removed]'))
-                    .slice(0, 5);
+                    .slice(0, 5); // Display only 5 news articles
     
                 setNews(filteredNews); 
                 setLoading(false);
