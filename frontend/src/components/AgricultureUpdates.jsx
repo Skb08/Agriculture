@@ -17,23 +17,13 @@ const AgricultureNews = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://newsapi.org/v2/everything', {
-                    params: {
-                        apiKey: import.meta.env.VITE_API_KEY,  
-                        q: 'agriculture',  // agriculture news
-                        language: 'en',
-                    },
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json'
-                      }
-                });
-
-                // limit to first 5 news
+                // Call the proxy server instead of the NewsAPI directly
+                const response = await axios.get('http://localhost:5000/agriculture-news');
+    
                 const filteredNews = response.data.articles
                     .filter(article => article.description && !article.description.includes('[Removed]'))
                     .slice(0, 5);
-
+    
                 setNews(filteredNews); 
                 setLoading(false);
             } catch (err) {
@@ -42,7 +32,7 @@ const AgricultureNews = () => {
                 setLoading(false);
             }
         };
-
+    
         fetchData();
     }, []);
 
