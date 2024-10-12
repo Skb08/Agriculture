@@ -20,16 +20,14 @@ const MoreNews = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://newsapi.org/v2/everything', {
-                    params: {
-                        apiKey: import.meta.env.VITE_API_KEY,  
-                        q: 'agriculture',
-                        language: 'en',
-                    }
-                });
-                // Filter out articles containing [Removed]
-                const filteredArticles = response.data.articles.filter(article => !article.title.includes('[Removed]'));
-                setMoreNews(filteredArticles);  // Fetch all filtered articles
+                // Call the proxy server instead of the NewsAPI directly
+                const response = await axios.get('http://localhost:5000/agriculture-news');
+    
+                const filteredNews = response.data.articles
+                    .filter(article => article.description && !article.description.includes('[Removed]'))
+                    .slice(0, 100);
+    
+                setMoreNews(filteredNews); 
                 setLoading(false);
             } catch (err) {
                 console.error('Error fetching data:', err);
