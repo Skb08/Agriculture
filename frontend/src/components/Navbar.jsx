@@ -23,6 +23,8 @@ const Navbar = () => {
     };
 
     const handleNavClick = (path) => {
+         if(isOpen){handleToggle();}
+         
         if (location.pathname !== '/' && location.pathname !== '/home') {
             navigate(`/?section=${path}`);
         } else {
@@ -39,7 +41,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
+            <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50 shadow-md shadow-gray-500">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src={earth} className="h-8 animate-spin-scale" alt="Flowbite Logo" />
