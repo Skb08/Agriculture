@@ -31,8 +31,7 @@ const AgroEquip = () => {
         className='text-center md:w-3/4 mx-auto flex flex-col items-center' >
         <h2 className='text-4xl text-green-600 font-semibold mb-4'>
           Agricultural equipment</h2>
-        <p className='md:w-3/4 text-sm text-green-500 mb-8 text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iusto, maxime tempora  unde
-          consequatur, tempore hic voluptas dolores deserunt excepturi, exercitationem  doloremque voluptatem officiis ipsum?</p>
+        <p className='md:w-3/4 text-sm text-green-500 mb-8 text-center'>We strive to raise awareness about advanced agricultural equipment that enhances efficiency and productivity, fostering growth and innovation in the farming sector for a better future.</p>
       </div>
       {/* blogs */}
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 items-center justify-between'>

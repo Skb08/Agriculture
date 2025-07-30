@@ -20,7 +20,7 @@ const Moregallery = () => {
                         Gallery
                     </h2>
                     <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>
-                        Your support has the power to change lives. Whether it's offering food, shelter, medical assistance, or education, every contribution counts. Your generosity makes a meaningful difference in the lives of those in need.
+                        A glimpse into the future of farming! Our gallery showcases the blend of modern technology and traditional methods, driving sustainable agriculture and rural progress.
                     </p>
                 </div>
 

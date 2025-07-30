@@ -31,11 +31,11 @@ const MoreResourceLib = () => {
           </div>
 
           <div className="group relative bg-white shadow-lg rounded-lg overflow-hidden" data-aos="fade-up">
-            <img className="w-full h-72 object-cover" src="https://img.youtube.com/vi/EyVHl_H1o24/maxresdefault.jpg" alt="Thumbnail" onError={(e) => e.target.src = defaultAgricultureImage} />
-            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/EyVHl_H1o24?autoplay=1&mute=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-            </div>
+          <img className="w-full h-72 object-cover" src="https://img.youtube.com/vi/x-N7si-iaVY/maxresdefault.jpg" alt="Thumbnail" onError={(e) => e.target.src = defaultAgricultureImage} />
+          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <iframe className="w-full h-full" src="https://www.youtube.com/embed/x-N7si-iaVY?si=kRf2nwzDj2yB6AXF" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
+        </div>
 
           <div className="group relative bg-white shadow-lg rounded-lg overflow-hidden" data-aos="fade-up">
             <img className="w-full h-72 object-cover" src="https://img.youtube.com/vi/ys42RUFhMqg/maxresdefault.jpg" alt="Thumbnail" onError={(e) => e.target.src = defaultAgricultureImage} />

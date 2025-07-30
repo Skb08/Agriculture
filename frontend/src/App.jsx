@@ -12,17 +12,24 @@ import ResourcesLib from './components/ResourcesLib';
 import FAQ from './components/FAQ';
 import NewsBlog from './components/NewsBlog';
 import AgricultureUpdates from './components/AgricultureUpdates';
-import { useLayoutEffect } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
+import About from './components/About';
+import Loader from './components/Loader';
 // require('dotenv').config();
 
-
+let IsAppLoaded=false;
 function App() {
   const location = useLocation();
 
+  const [loading,setLoading]=useState(() => {
+  return sessionStorage.getItem("hasLoaded") !== "true";
+});
+
   useLayoutEffect(() => {
-    const params = new URLSearchParams(location.search);
+    if(!loading)
+   { const params = new URLSearchParams(location.search);
     const section = params.get('section');
 
     if (section) {
@@ -40,13 +47,38 @@ function App() {
         delay: 0,
         smooth: 'easeInOutQuart',
       });
-    }
-  }, [location]);
+    }}
+  }, [location,loading]);
+
+
+
+
+  //loading before main-content
+
+  useEffect(()=>{
+    if(loading){
+      
+      const timer=setTimeout(()=>{
+        setLoading(false);
+       sessionStorage.setItem("hasLoaded", "true");
+  },3000);
+
+
+  return ()=>clearTimeout(timer);
+
+}
+
+  },[]);
+
+  
+if(loading) return <Loader/>;
+
 
   return (
     <>
       <Navbar />
       <section id="home"><Home /></section>
+      <section id="about"><About /></section>
       <section id="service"><Services /></section>
       <section id="agroequip"><AgroEquip /></section>
       <section id="reviews"><Reviews /></section>

@@ -10,7 +10,7 @@ const Members = () => {
         {
             id: 2, title: "Honourable  Agriculture and Farmers' Welfare Minister",
             description: "Shri Shivraj Singh Chouhan",
-            image: "https://irc.trif.in/wp-content/uploads/2024/08/Shri-Shivraj-Singh-Chouhan-e1722970636976.jpg"
+            image: "https://bsmedia.business-standard.com/_media/bs/img/article/2018-05/16/full/1526409851-37.jpg"
         },
         {
             id: 3, title: "Honourable Chief Minister of Odisha",

@@ -14,9 +14,7 @@ const Gallery = () => {
             <div className='text-center md:w-3/4 mx-auto flex flex-col items-center' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                 <h2 className='text-4xl text-gray-500 font-semibold mb-4'>
                     Gallery</h2>
-                <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>Your support has the power to change lives. 
-                Whether it's offering food, shelter, medical assistance, or education, every contribution counts. Your generosity 
-                makes a meaningful difference in the lives of those in need.</p>
+                <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>A glimpse into the future of farming! Our gallery showcases the blend of modern technology and traditional methods, driving sustainable agriculture and rural progress.</p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8 ">
@@ -44,7 +42,7 @@ const Gallery = () => {
                     <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://img.freepik.com/premium-photo/indian-farmer-working-green-pigeon-peas-field-with-bullock_54391-6543.jpg?semt=ais_hybrid" alt="" />
                 </div>
-                <div>
+                {/* <div>
                     <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://media.istockphoto.com/id/2148858499/photo/indian-woman-collecting-a-wheat-india.jpg?s=612x612&w=0&k=20&c=u8S9OLNOLKLsPCvl5cLNGQDvdAFKb_BzmmqMKr8VY5M=" alt="" />
                 </div>
@@ -55,7 +53,7 @@ const Gallery = () => {
                 <div>
                     <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://media.istockphoto.com/id/2167280120/photo/tamil-women-plucking-tea-leaves-on-plantation-ceylon.jpg?s=612x612&w=0&k=20&c=rHAOh22fVnDeEFEDf5_B7mvTCcHNJdd7KEmR4S9jcZk=" alt="" />
-                </div>
+                </div> */}
                 
             </div>
             <div className="text-end mt-4 text-green-600 hover:text-green-500">
